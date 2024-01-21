@@ -27,6 +27,7 @@ public class RoomsServiceImpl implements RoomsService {
     }
 
     public List<Rooms> getAllRooms(Session session) {
+//        return List.of(new Rooms(), new Rooms());
         return roomsRepository.findAll(session);
     }
 

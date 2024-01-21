@@ -19,4 +19,6 @@ public interface RoomsService {
     Rooms getRoomById(Session session, Integer id);
 
     void bookARoom(Session session, Integer roomId, User user);
+
+    void deleteRoom(int roomId);
 }
